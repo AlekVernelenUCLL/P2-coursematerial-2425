@@ -1,5 +1,5 @@
 def fibonacci(number):
-    if number == 0 or number < 0:
+    if number <= 0:
         return 0
     elif number == 1:
         return 1
